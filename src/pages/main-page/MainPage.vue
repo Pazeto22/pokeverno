@@ -9,7 +9,7 @@ const stars = ref(
   Array.from({ length: starsCount }, () => ({
     top: Math.random() * 100 + '%',
     left: Math.random() * 100 + '%',
-    size: Math.random() > 0.5 ? 2 : 1,
+    size: Math.floor(Math.random() * 3) + 1,
     duration: Math.random() * 3000 + 2000 + 'ms'
   }))
 )
