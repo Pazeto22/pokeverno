@@ -1,55 +1,55 @@
-@import '../colors.scss';
+@use '../colors.scss' as colors;
 
 // Primary
 
 .fc-p {
-  color: $primary;
+  color: colors.$primary;
 }
 .fc-pl {
-  color: $primary-light;
+  color: colors.$primary-light;
 }
 .fc-pd {
-  color: $primary-dark;
+  color: colors.$primary-dark;
 }
 
 // Secondary
 
 .fc-s {
-  color: $secondary;
+  color: colors.$secondary;
 }
 .fc-sl {
-  color: $secondary-light;
+  color: colors.$secondary-light;
 }
 .fc-sd {
-  color: $secondary-dark;
+  color: colors.$secondary-dark;
 }
 
 // Black
 
 .fc-b {
-  color: $black;
+  color: colors.$black;
 }
 .fc-bl1 {
-  color: $black-l1;
+  color: colors.$black-l1;
 }
 
 // White
 
 .fc-w {
-  color: $white;
+  color: colors.$white;
 }
 .fc-wl1 {
-  color: $white-l1;
+  color: colors.$white-l1;
 }
 .fc-wd1 {
-  color: $white-d1;
+  color: colors.$white-d1;
 }
 
 // Gray
 
 .fc-g {
-  color: $gray;
+  color: colors.$gray;
 }
 .fc-gl1 {
-  color: $gray-l1;
+  color: colors.$gray-l1;
 }
