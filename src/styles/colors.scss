@@ -1,0 +1,27 @@
+// Colors
+
+$primary: #151c45;
+$primary-light: #242e61;
+$primary-dark: #0d1121;
+
+$secondary: #2ad5e0;
+$secondary-light: #33ffec;
+$secondary-dark: #018786;
+
+$black: #040404;
+$black-l1: #1c1b1b;
+
+$white: #fbfbfb;
+$white-l1: #ffffff;
+$white-d1: #eeeeee;
+
+$gray: #b0b0b0;
+$gray-l1: #dddddd;
+
+// Gradients
+
+$primary-gradient:
+  linear-gradient(to bottom right, $primary-light 0%, #151c45 50%) bottom right / 50% 50% no-repeat,
+  linear-gradient(to bottom left, $primary-light 0%, #151c45 50%) bottom left / 51% 51% no-repeat,
+  linear-gradient(to top left, $primary-light 0%, #151c45 50%) top left / 51% 51% no-repeat,
+  linear-gradient(to top right, $primary-light 0%, #151c45 50%) top right / 51% 51% no-repeat;
