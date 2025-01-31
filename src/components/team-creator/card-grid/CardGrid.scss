@@ -1,0 +1,45 @@
+.card-grid {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(3, 208px);
+    grid-template-rows: repeat(2, 320px);
+    gap: 32px;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  &__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 208px;
+    height: 320px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.45);
+    backdrop-filter: blur(24px);
+  }
+
+  &__card-content {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  @media (max-width: 1024px) {
+    &__container {
+      grid-template-rows: repeat(3, 320px);
+    }
+  }
+
+  @media (max-width: 768px) {
+    &__container {
+      grid-template-columns: repeat(2, 208px);
+      grid-template-rows: repeat(6, 320px);
+    }
+  }
+}
